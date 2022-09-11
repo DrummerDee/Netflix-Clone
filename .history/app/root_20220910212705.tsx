@@ -7,7 +7,7 @@ export default function App(){
         </head>
         <body>
           <Outlet />
-          <h1> Jellybeans1</h1>
+          <h1> Jellybeans</h1>
           {process.env.NODE_ENV === 'development' ? <LiveReload/> : null}
           </body>
           </html>
