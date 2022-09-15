@@ -36,3 +36,4 @@ const Document = ({ children, title }: Props) => {
 };
 // header and footer are components that wrap on most pages 
 // create separate components with transparent colors 
+// remember to watch the routing portion of the video
