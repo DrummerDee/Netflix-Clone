@@ -1,7 +1,7 @@
 import { Outlet, LiveReload, Links } from "@remix-run/react";
 import globalStyles from '~/styles/global.css'
 //imports any stylesheet 
-export const links = () => [{rel:'stylesheet',href:'globalStyles'}]
+export const links = () => [{rel:'stylesheet',href: globalStyles }]
 
 //This will hold all out of html meta info
 export default function App() {
@@ -34,4 +34,5 @@ const Document = ({ children, title }: Props) => {
     </html>
   );
 };
-// no need for consistent component that renders on every page 
+// header and footer are components that wrap on most pages 
+// create separate components with transparent colors 
