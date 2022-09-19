@@ -1,5 +1,4 @@
 import { Outlet, LiveReload, Links, Link } from "@remix-run/react";
-import Homepage from '~/routes';
 import globalStyles from '~/styles/global.css'
 //imports any stylesheet 
 export const links = () => [{rel:'stylesheet',href: globalStyles }]
@@ -9,7 +8,7 @@ export default function App() {
   return (
     <Document>
       <Layout>
-        <Outlet />
+        <Outlet/>
       </Layout>
     </Document>
   );
